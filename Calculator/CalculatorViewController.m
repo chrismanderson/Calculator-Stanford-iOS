@@ -11,6 +11,7 @@
 
 @interface CalculatorViewController ()
 @property (nonatomic) BOOL userIsInTheMiddleOfEnteringANumber;
+@property (nonatomic) BOOL userEnteredADecimal;
 @property (nonatomic, strong) CalculatorBrain *brain;
 @end
 
@@ -35,6 +36,13 @@
     } else {
         self.display.text = digit;
         self.userIsInTheMiddleOfEnteringANumber = YES;
+    }
+}
+
+- (IBAction)decimalPressed
+{
+    if ([self.display.text rangeOfString:@"."].location == NSNotFound) {
+        self.display.text = [self.display.text stringByAppendingString:@"."];
     }
 }
 - (IBAction)enterPressed

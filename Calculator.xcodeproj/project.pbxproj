@@ -15,6 +15,7 @@
 		835AB2AA15C8AC3E00D11CD8 /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 835AB2A915C8AC3E00D11CD8 /* CalculatorAppDelegate.m */; };
 		835AB2AD15C8AC3E00D11CD8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835AB2AB15C8AC3E00D11CD8 /* MainStoryboard.storyboard */; };
 		835AB2B015C8AC3E00D11CD8 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835AB2AF15C8AC3E00D11CD8 /* CalculatorViewController.m */; };
+		83C0D2AC15C8B4C100F50EC9 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C0D2AB15C8B4C100F50EC9 /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		835AB2AC15C8AC3E00D11CD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		835AB2AE15C8AC3E00D11CD8 /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		835AB2AF15C8AC3E00D11CD8 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		83C0D2AA15C8B4C100F50EC9 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		83C0D2AB15C8B4C100F50EC9 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				835AB2A815C8AC3E00D11CD8 /* CalculatorAppDelegate.h */,
 				835AB2A915C8AC3E00D11CD8 /* CalculatorAppDelegate.m */,
 				835AB2AB15C8AC3E00D11CD8 /* MainStoryboard.storyboard */,
+				83C0D2AA15C8B4C100F50EC9 /* CalculatorBrain.h */,
+				83C0D2AB15C8B4C100F50EC9 /* CalculatorBrain.m */,
 				835AB2AE15C8AC3E00D11CD8 /* CalculatorViewController.h */,
 				835AB2AF15C8AC3E00D11CD8 /* CalculatorViewController.m */,
 				835AB2A015C8AC3E00D11CD8 /* Supporting Files */,
@@ -165,6 +170,7 @@
 				835AB2A615C8AC3E00D11CD8 /* main.m in Sources */,
 				835AB2AA15C8AC3E00D11CD8 /* CalculatorAppDelegate.m in Sources */,
 				835AB2B015C8AC3E00D11CD8 /* CalculatorViewController.m in Sources */,
+				83C0D2AC15C8B4C100F50EC9 /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +286,7 @@
 				835AB2B515C8AC3E00D11CD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

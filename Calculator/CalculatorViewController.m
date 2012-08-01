@@ -28,4 +28,8 @@
         self.userIsInTheMiddleOfEnteringANumber = YES;
     }
 }
+- (IBAction)enterPressed {
+}
+- (IBAction)operationPressed:(id)sender {
+}
 @end
